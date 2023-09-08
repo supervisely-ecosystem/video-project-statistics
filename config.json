@@ -1,13 +1,11 @@
 {
   "type": "app",
   "version": "2.0.0",
-  "name": "PLACEHOLDER: Name of the application in Ecosystem",
-  "description": "PLACEHOLDER: Short description of the app in Ecosystem",
-  "docker_image": "supervisely/base-py-sdk:6.72.50 !!! CHANGE THIS FOR REQUIRED VERSION !!!",
+  "name": "Video project statistics",
+  "description": "Check out the statistic for videos project or dataset.",
+  "docker_image": "supervisely/base-py-sdk:6.72.122",
   "categories": [
-    "images",
-    "labeling",
-    "PLACEHOLDER: input all categories here"
+    "videos"
   ],
   "icon": "PLACEHOLDER FOR ICON (inserted by designers)",
   "icon_cover": true,
@@ -17,10 +15,9 @@
   "port": 8000,
   "context_menu": {
     "target": [
-      "images_project",
-      "ecosystem",
-      "PLACEHOLDER: input all targets here"
-    ],
-    "context_category": "PLACEHOLDER: input context category here (right click in Ecosystem)"
+      "videos_project",
+      "videos_dataset",
+      "ecosystem"
+    ]
   }
 }
