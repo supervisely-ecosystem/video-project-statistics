@@ -1,9 +1,10 @@
 {
   "type": "app",
+  "instance_version": "6.15.60",
   "version": "2.0.0",
   "name": "Video project statistics",
   "description": "Check out the statistic for videos project or dataset.",
-  "docker_image": "supervisely/base-py-sdk:6.72.122",
+  "docker_image": "supervisely/base-py-sdk-hardened:6.73.564",
   "categories": [
     "videos"
   ],
